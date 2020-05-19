@@ -1,0 +1,110 @@
+<view class="header_top clearfix">
+   <navigator hover-class="none" class="fl returnBotton" open-type="navigateBack" delta="1">
+      <image src="../../image/icon/fll.png" class="fanhui_img"></image>
+    </navigator>
+    <view class="header_title fl text-center element1">
+      设备详情
+    </view>
+    <view class="empty_top_right fl"></view>
+</view>
+<view class="empty_top"></view>
+
+
+<view class="wendu">
+  <view class='canvasBox'>
+    <view class='bigCircle'></view>
+    <view class='littleCircle'></view>
+    <canvas canvas-id="runCanvas" id="runCanvas" class='canvas'></canvas>
+  </view>
+  <view class="sheb on">设备正常运行</view>
+  <view class="sheb">当前气价 9 ￥/m³</view>
+  
+</view>
+<view class="list_detail">
+  <navigator url="../warningList/warningList" class="url_botton">设备警报</navigator>
+  <view class="zhuangtai url_botton"><text>设备状态</text></view>
+  <navigator url="../chongzhi/chongzhi" class="url_botton">设备充值</navigator>
+</view>
+<view class="word_date">
+  <navigator url="../report/report" class="date_type">
+    <image src="../../image/icon/ec-1.png"></image>
+    <view>异常视图</view>
+  </navigator>
+  <navigator url="../report2/report2" class="date_type">
+    <image src="../../image/icon/ec-1.png"></image>
+    <view>异常报表</view>
+  </navigator>
+  <navigator url="../report3/report3" class="date_type">
+    <image src="../../image/icon/ec-1.png"></image>
+    <view>状态视图</view>
+  </navigator>
+  <navigator url="../report4/report4" class="date_type">
+    <image src="../../image/icon/ec-1.png"></image>
+    <view>状态报表</view>
+  </navigator>
+</view>
+<view class="data_shebeiEagiy">
+  <view class="moddle">
+    <view class="text"> 9 <text>m³</text></view>累计气量
+  </view>
+  <view class="moddle">
+    <view class="text"> 9 <text>￥</text></view>剩余金额
+  </view>
+  <view class="moddle">
+    <view class="text"> 9 <text>￥</text></view>累计已用金额
+  </view>
+  <view class="moddle">
+    <view class="text"> 9 <text>￥/m³</text></view>FD压力
+  </view>
+  <view class="moddle">
+    <view class="text"> 9 <text>v</text></view>主电池电压
+  </view>
+  <view class="moddle">
+    <view class="text"> 8</view>FD标况瞬时
+  </view>
+  <!-- <view class="moddle">
+    <view class="text"> 9 <text>℃</text></view>FD温度
+  </view> -->
+  <!-- <view class="moddle">
+    <view class="text"> 9 <text>kPa</text></view>FD压力
+  </view> -->
+</view>
+
+<view class="xinxi_bj_di">
+  <view class="list_xinxi clearfix">
+    <text class="name">设备编码:</text>
+    <text class="infor">JNTH404</text>
+  </view>
+  <view class="list_xinxi clearfix">
+    <text class="name">启用/禁用:</text>
+    <text class="infor">启用</text>
+  </view>
+  <view class="list_xinxi clearfix">
+    <text class="name">是否安装:</text>
+    <text class="infor">已安装</text>
+  </view>
+  <view class="list_xinxi clearfix">
+    <text class="name">安装时间:</text>
+    <text class="infor">2019/09/08</text>
+  </view>
+  <view class="list_xinxi clearfix">
+    <text class="name">设备地址:</text>
+    <text class="infor">温州市 瓯海区</text>
+  </view>
+  <view class="list_xinxi clearfix">
+    <text class="name">详情地址:</text>
+    <text class="infor">北纬二路37号</text>
+  </view>
+  <view class="list_xinxi clearfix">
+    <text class="name">所属代理商:</text>
+    <text class="infor">赛特网络服务有限公司</text>
+  </view>
+  <view class="list_xinxi clearfix">
+    <text class="name">所属公司:</text>
+    <text class="infor">赛特网络服务有限公司</text>
+  </view>
+  <view class="list_xinxi clearfix">
+    <text class="name">报警电话:</text>
+    <text class="infor">1895623521</text>
+  </view>
+</view>

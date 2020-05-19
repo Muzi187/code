@@ -1,0 +1,218 @@
+
+.xinxi_bj_di{
+  background-color: #fff;
+  padding: 20rpx
+}
+.list_xinxi{
+  font-size: 30rpx;
+  padding:20rpx 10rpx;
+  border-bottom: 1px solid #f0f6f9;
+  color: #666;
+  position: relative;
+}
+.list_xinxi .name{
+  float:left;
+  min-width: 150rpx;
+  text-align: left;
+}
+.list_xinxi .infor{
+  color:#1584ec;
+  margin-left:20rpx;
+  font-size: 28rpx;
+}
+.list_xinxi input{
+  width: 300rpx;
+  float:left;
+  margin-left:20rpx;
+  padding:0 20rpx;
+  font-size: 28rpx;
+}
+.huoqu{
+  position: absolute;
+  width: 200rpx;
+  font-size: 26rpx;
+  border-radius: 40rpx;
+  right: 0;
+  border: 1px solid #1584ec;
+  color: #1584ec;
+  background-color: #fff;
+  top: 10rpx;
+}
+.one_anniu{
+  border-radius: 0rpx;
+  color: #fff;
+  border: 0px;
+  text-align: center;
+  background-color: #1584ec;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+  font-size: 30rpx
+}
+.tipsMoney-text {
+    padding: 10rpx 40rpx;
+    color: #919191;
+    font-size: 26rpx;
+}
+.jilu{
+  padding: 10rpx 40rpx;
+  color: #1985bb;
+  font-size: 24rpx;
+  display: inline;
+}
+
+/* 设备数据 */
+.data_shebeiEagiy{
+  margin: 20rpx 0;
+  border: 1px solid #f3f3f3;
+  padding: 10rpx 0;
+  background-color: #fff;
+
+}
+.data_shebeiEagiy >view.moddle{
+  display: inline-block;
+  width: 33.3%;
+  font-size: 22rpx;
+  text-align: center;
+  color: #1584ec;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+}
+.data_shebeiEagiy >view.moddle >view.text{
+  margin: 10rpx 0;
+  color: #333;
+  font-size: 28rpx;
+}
+.data_shebeiEagiy >view.moddle >view.text >text{
+  font-size: 22rpx;
+}
+/* 设备状态 */
+.list_detail{
+  background-color: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 10px 0;
+}
+.list_detail .url_botton{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  font-size:28rpx;
+  color: #666;
+}
+.list_detail .zhuangtai{
+  color:#1584ec;
+}
+.list_detail .zhuangtai > text::after{
+  content: "";
+  display: inline-block;
+  width: 50rpx;
+  height:5rpx;
+  background-color:#1584ec; 
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -10rpx;
+  box-shadow: 0rpx 5rpx #d4e8f7;
+}
+.list_detail .zhuangtai > text{
+  position: relative;
+}
+/* 数据视图 */
+.word_date{
+  background-color: #fff;
+  padding: 10px 0;
+}
+.word_date > .date_type{
+  display: inline-block;
+  width: 22.5%;
+  text-align: center;
+  color: #666;
+  font-size: 24rpx;
+  padding: 10rpx;
+  box-sizing: border-box;
+  margin-left: 2%;
+  border-radius: 20rpx;
+  border: 1px solid #f8f8f8;
+  height: 164rpx;
+}
+.word_date > .date_type:hover{
+  border: 1px solid #1584ec;
+  background-color: #eaf5fd;
+}
+.word_date > .date_type > image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 16rpx;
+}
+.word_date > .date_type >view{
+  margin-top: 20rpx;
+}
+/* 设备主图 */
+
+.wendu{
+  height: 620rpx;
+  background: linear-gradient(to right, #1584ec,#8b8bfd);
+  text-align: center
+}
+.wendu >image{
+  width: 400rpx;
+  height: 200rpx;
+  margin-top:60rpx;
+}
+.wendu > .sheb{
+  text-align: center;
+  color:#fff;
+  font-size:28rpx;
+  margin-top: 10rpx;
+}
+.wendu > .sheb.on{
+  font-size: 36rpx;
+}
+/* 进度条 */
+.canvasBox{
+  height: 500rpx;
+  position: relative;
+  background: linear-gradient(to right, #1584ec,#8b8bfd);
+}
+.bigCircle{
+  width: 420rpx;
+  height: 420rpx;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  background-color: #0e79dd;
+}
+.littleCircle{
+  width: 356rpx;
+  height: 356rpx;
+  border-radius: 50%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  background-color: #1584ec;
+}
+.canvas{
+  width: 420rpx;
+  height: 420rpx;
+  position: absolute;
+  background: transparent;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto auto;
+  z-index: 99;
+}

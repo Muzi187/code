@@ -1,0 +1,14 @@
+/* index/about/about.wxss */
+.div_class{
+  padding: 20rpx;
+  font-size:30rpx;
+  box-sizing: border-box;
+  display: inline-block
+}
+.div_class >img{
+  width: 100%;
+}
+page {
+background: #fff;
+}
+

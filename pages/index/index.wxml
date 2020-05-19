@@ -1,0 +1,242 @@
+<view class="header_top clearfix">
+  <view class="header_title  text-left element1">
+    燃气调压设备智能管控平台
+  </view>
+  <view class="empty|_top_right fl"></view>
+</view>
+<view class="empty_top"></view>
+<swiper indicator-dots="true" indicator-active-color="#055ebc" 
+  autoplay="true" interval="4000" duration="1000" class="banner_div_bg">
+  <block wx:for="{{imgUrls}}" wx:key="index" >
+    <swiper-item >
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="type_list clearfix">
+  <navigator url="../release/release" class="type_url fl">
+    <image src="../../image/type1.jpg" class="type_bg"></image>
+    <view class="word">故障报修
+      <view class="tisp_type">故障上报，快速维修</view>
+    </view>
+    <view class="tisp_type"></view>
+  </navigator>
+  <navigator url="../newList/newList" class="type_url fr">
+    <image src="../../image/type2.jpg" class="type_bg"></image>
+    <view class="word">202
+      <view class="tisp_type">今日待处理</view>
+    </view>
+  </navigator>
+</view>
+
+<view class=".tongji_shebei clearfix">
+  <navigator url="../release/release" class="detail_tj fl">
+    <image src="../../image/type1.jpg" class="type_bg"></image>
+    <view class="title">总待处理数
+      <view class="text"><text>12</text>个</view>
+    </view>
+  </navigator>
+  <navigator url="../newList/newList" class="detail_tj fl">
+    <image src="../../image/type3.jpg" class="type_bg"></image>
+    <view class="title">正常设备
+      <view class="text"><text>9</text>个</view>
+    </view>
+  </navigator>
+  <navigator url="../newList/newList" class="detail_tj fl">
+    <image src="../../image/type4.jpg" class="type_bg"></image>
+    <view class="title">故障设备
+      <view class="text"><text>3</text>个</view>
+    </view>
+  </navigator>
+</view>
+
+<view class=".tongji_shebei clearfix hidden">
+  <navigator url="../release/release" class="detail_tj fl">
+    <image src="../../image/type1.jpg" class="type_bg"></image>
+    <view class="title">设备数量（个）
+      <view class="text">2</view>
+    </view>
+  </navigator>
+  <navigator url="../newList/newList" class="detail_tj fr">
+    <image src="../../image/type2.jpg" class="type_bg"></image>
+    <view class="title">常见问题
+      <view class="text">你关心的都在这</view>
+    </view>
+  </navigator>
+</view>
+
+
+
+<view class="task_list_layer_title">
+  <view class="home_modular_title">
+    <view class="positiomee">
+      <image src="../../image/icon/jb.png" class="title_icon fl"></image>
+      <text class="span1">待处理</text>
+      <navigator url="../faultList/faultList" class="fr more"  hover-class="none">更多 ></navigator>
+    </view>
+  </view>
+</view>
+<view class="task_list_layer">
+  <navigator hover-class="none" class="list_task border-r" url="../detail/detail">
+    <view class="fr_text">
+      <view class="type element2">编号：FJG2532521 <text class="cl_yellow tips_gj fr">查看详情</text></view>
+      <view class="title element2">设备名称：FJG2532521</view>
+      <view class="title element2">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <view class="title_ry element1 clearfix">上报维保员：芭蕉 <text class="fr">ID： 5</text></view>
+      <view class="time clearfix">
+        <image src="../../image/icon/wc.png" class="zt_bj fl"></image>
+        <text class="red chuli">待处理</text>
+        <text class="cl_ben mr-l20 type_guz">小故障</text>
+        <text class="text-right fr">2020/04/20</text>
+      </view>
+    </view>
+  </navigator>
+  <navigator hover-class="none" class="list_task border-r" url="../detail/detail">
+    <view class="fr_text">
+      <view class="type element2">FJG2532521<text class="cl_yellow tips_gj fr">查看详情</text></view>
+      <view class="title element2">设备名称</view>
+      <view class="title element2">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <view class="title_ry element1 clearfix">上报维保员：芭蕉 <text class="fr">ID： 5</text></view>
+      <view class="time clearfix">
+        <image src="../../image/icon/wc.png" class="zt_bj fl"></image>
+        <text class="red chuli">待处理</text>
+        <text class="cl_ben mr-l20 type_guz">大故障</text>
+        <text class="text-right fr">2020/04/20</text>
+      </view>
+    </view>
+  </navigator>
+</view>
+
+<view class="task_list_layer_title">
+  <view class="home_modular_title">
+    <view class="positiomee">
+      <image src="../../image/icon/wc-2.png" class="title_icon fl"></image>
+      <text class="span1">维修知识库</text>
+      <navigator url="../newList/newList" class="fr more"  hover-class="none">更多 ></navigator>
+    </view>
+  </view>
+</view>
+<view class="task_list_layer">
+  <navigator hover-class="none" class="list_task new_list_rf clearfix" url="../newDetail/newDetail">
+    <view class="img_fl fl">
+      <image src="../../image/banner2.jpg" class="image"></image>
+    </view>
+    <view class="fr_text fl">
+      <view class="title element2">设备保养小知识</view>
+      <view class="time text-right cl_ben">详情 ></view>
+    </view>
+  </navigator>
+  <navigator hover-class="none" class="list_task new_list_rf clearfix" url="../newDetail/newDetail">
+    <view class="img_fl fl">
+      <image src="../../image/banner2.jpg" class="image"></image>
+    </view>
+    <view class="fr_text fl">
+      <view class="title element2">设备保养小知识</view>
+      <view class="time text-right cl_ben">详情 ></view>
+    </view>
+  </navigator>
+  <navigator hover-class="none" class="list_task new_list_rf clearfix" url="../newDetail/newDetail">
+    <view class="img_fl fl">
+      <image src="../../image/banner2.jpg" class="image"></image>
+    </view>
+    <view class="fr_text fl">
+      <view class="title element2">设备保养小知识</view>
+      <view class="time text-right cl_ben">详情 ></view>
+    </view>
+  </navigator>
+</view>
+
+<view class="task_list_layer_title">
+  <view class="home_modular_title">
+    <view class="positiomee">
+      <image src="../../image/icon/wc-1.png" class="title_icon fl"></image>
+      <text class="span1">零配件采购</text>
+      <navigator url="../productList/productList" class="fr more"  hover-class="none">更多 ></navigator>
+    </view>
+  </view>
+</view>
+<view class="task_list_layer clearfix">
+  <navigator hover-class="none" class="product_list_home fl" url="../productDetail/productDetail">
+    <image src="../../image/banner1.jpg" class="prodict_image"></image>
+     <view class="title element1">螺蛳螺蛳螺蛳螺蛳螺蛳螺蛳</view>
+     <view class="price element1">￥25.0</view>
+  </navigator>
+  <navigator hover-class="none" class="product_list_home fl" url="../productDetail/productDetail">
+    <image src="../../image/banner1.jpg" class="prodict_image"></image>
+     <view class="title element1">螺蛳螺蛳螺蛳螺蛳螺蛳螺蛳</view>
+     <view class="price element1">￥25.0</view>
+  </navigator>
+  <navigator hover-class="none" class="product_list_home fl" url="../productDetail/productDetail">
+    <image src="../../image/banner1.jpg" class="prodict_image"></image>
+     <view class="title element1">螺蛳螺蛳螺蛳螺蛳螺蛳螺蛳</view>
+     <view class="price element1">￥25.0</view>
+  </navigator>
+</view>
+
+<view class="task_list_layer_title">
+  <view class="home_modular_title">
+    <view class="positiomee">
+      <image src="../../image/icon/wc-3.png" class="title_icon fl"></image>
+      <text class="span1">下载中心</text>
+      <navigator class="fr more" url="../download/download" hover-class="none">更多 ></navigator>
+    </view>
+  </view>
+</view>
+<view class="task_list_layer">
+ <navigator hover-class="none" class="list_task" url="../detail/detail">
+    <view class="download_list clearfix" bindtap="load">
+      <view class="element1 title fl">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <image src="../../image/icon/down.png" class="fr down_i"></image>
+    </view>
+  </navigator>
+  <navigator hover-class="none" class="list_task" url="../detail/detail">
+    <view class="download_list clearfix" bindtap="load">
+      <view class="element1 title fl">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <image src="../../image/icon/down.png" class="fr down_i"></image>
+    </view>
+  </navigator>
+  <navigator hover-class="none" class="list_task" url="../detail/detail">
+    <view class="download_list clearfix" bindtap="load">
+      <view class="element1 title fl">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <image src="../../image/icon/down.png" class="fr down_i"></image>
+    </view>
+  </navigator>
+  <navigator hover-class="none" class="list_task" url="../detail/detail">
+    <view class="download_list clearfix" bindtap="load">
+      <view class="element1 title fl">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <image src="../../image/icon/down.png" class="fr down_i"></image>
+    </view>
+  </navigator>
+  <navigator hover-class="none" class="list_task" url="../detail/detail">
+    <view class="download_list clearfix" bindtap="load">
+      <view class="element1 title fl">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <image src="../../image/icon/down.png" class="fr down_i"></image>
+    </view>
+  </navigator>
+</view>
+
+<view class="empty_bottom"></view>
+<view class="prese_bottom_onee">
+  <navigator hover-class="none" url="../index/index">
+    <image src="../../image/footer/sy2.png"></image>
+    <view class="sign text">首页</view>
+  </navigator>
+  <navigator hover-class="none" url="../about/about">
+    <image src="../../image/footer/fl.png"></image>
+    <view class="text">服务</view>
+  </navigator>
+  <navigator hover-class="none" url="../daka/daka">
+    <image src="../../image/footer/all2.png" class="center_img"></image>
+    <view class="p-bottom"></view>
+    <view class="text">打卡</view>
+  </navigator>
+  <navigator hover-class="none" url="../productList/productList">
+    <image src="../../image/footer/tc.png"></image>
+    <view class="text">零配件</view>
+  </navigator>
+  <navigator hover-class="none" url="../member/member">
+    <image src="../../image/footer/hy.png"></image>
+    <view class="text">我的</view>
+  </navigator>
+</view>

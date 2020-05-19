@@ -1,0 +1,16 @@
+<view class="header_top clearfix">
+   <navigator hover-class="none" class="fl returnBotton" open-type="navigateBack" delta="1">
+      <image src="../../image/icon/fll.png" class="fanhui_img"></image>
+    </navigator>
+    <view class="header_title fl text-center element1">
+      故障统计
+    </view>
+    <view class="empty|_top_right fl"></view>
+</view>
+<view class="empty_top"></view>
+
+<view class="list_detail">
+  <button class="zhuangtai url_botton"><text>月</text></button>
+  <button class="url_botton">年</button>
+</view>
+<canvas class="canvas" canvas-id="columnGraph"></canvas>

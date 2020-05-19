@@ -1,0 +1,116 @@
+/* 报表 */
+
+page{
+  background-color: #fff;
+}
+.table {
+display: table;
+width: 92%;
+border-collapse: collapse; 
+margin: 0 auto;
+box-sizing: border-box;
+}
+
+.table-tr {
+display: table-row;
+height: 92rpx;
+}
+.table-tr:nth-child(2n-1){
+  background-color: #f0f0f0;
+}
+.table-tr:nth-child(1){
+  background-color: #f4f7e0;
+}
+.table-th {
+display: table-cell;
+font-weight: bold;
+border: 1rpx solid gray;
+text-align: left;
+vertical-align: middle;
+font-size: 28rpx;
+padding: 0 20rpx;
+
+}
+
+.table-td {
+  font-size: 24rpx;
+  display: table-cell;
+  border: 1rpx solid gray;
+  text-align: left;
+  vertical-align: middle;
+  padding: 0 20rpx;
+}
+/* 刷新 */
+.shuax{
+  padding:20rpx;
+}
+.shuax .relayer{
+  width: 200rpx;
+  float: left;
+  height: 60rpx;
+  font-size: 26rpx;
+  background-color: #1584ec;
+  color: #fff;
+  line-height: 60rpx;
+  border-radius: 5rpx;
+}
+.shuax > text{
+  font-size: 24rpx;
+  line-height: 60rpx;
+  color: #666;
+}
+
+/* 设备状态 */
+.list_detail{
+  background-color: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 10px 0;
+  text-align: center;
+}
+.list_detail .url_botton{
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  font-size:28rpx;
+  color: #666;
+  background-color: #fff;
+  border-radius: 0;
+}
+.list_detail .url_botton::after{
+  border:0;
+}
+.list_detail .zhuangtai{
+  color:#1584ec;
+}
+.list_detail .zhuangtai > text::after{
+  content: "";
+  display: inline-block;
+  width: 30rpx;
+  height:5rpx;
+  background-color:#1584ec; 
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -10rpx;
+  box-shadow: 0rpx 5rpx #d4e8f7;
+}
+.list_detail .zhuangtai > text{
+  position: relative;
+}
+/* 日期选择 */
+.section{
+  padding: 0 20rpx 20rpx;
+}
+.section  .picker{
+  color: #1584ec;
+}
+/* 统计图 */
+.canvas {
+width: 100%;
+margin: 0 auto;
+height: 540rpx;
+margin-top: 45rpx;
+}

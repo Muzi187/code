@@ -1,0 +1,59 @@
+/* 设备列表 */
+.list_sb .list{
+  padding:20rpx;
+  margin-bottom:20rpx;
+  background-color: #fff;
+}
+.list_sb .left > .sheb_img {
+  width: 150rpx;
+  height: 150rpx;
+  vertical-align: middle;
+}
+.list_sb .right {
+  float: left;
+  width: 65%;
+  padding: 0 20rpx;
+  font-size: 35rpx;
+  color: #666;
+}
+.list_sb .left{
+  width:150rpx;
+}
+.direction{
+  float: right;
+  width: 40rpx;
+  height:40rpx;
+  padding: 50rpx 0;
+}
+.list_sb .right .name{
+  padding:10rpx 0;
+  color: #333;
+}
+.list_sb .right .address_shebei{
+  font-size:24rpx;
+  margin-top: 10rpx;
+}
+.list_sb .right .state{
+  font-size:28rpx;
+}
+.list_sb .right .color1{
+  color:#1584ec;
+}
+.list_sb .right .red{
+  color:red;
+}
+
+.data_shebeiEagiy >view.moddle{
+  display: inline-block;
+  width: 25%;
+  font-size: 28rpx;
+  text-align: center;
+  color: #1584ec;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+}
+.data_shebeiEagiy >view.moddle >view.text{
+  margin: 10rpx 0;
+  color: #666;
+}
+

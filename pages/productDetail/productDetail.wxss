@@ -1,0 +1,387 @@
+.banner_div_bg{
+  height:750rpx;
+}
+.banner_div_bg .slide-image{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+
+.footer{z-index: 2;}
+.company_name_add {
+  padding: 20rpx;
+  margin: 10rpx 0;
+  border-radius: 5px;
+}
+.company_name_add .price_detail {
+  font-size: 44rpx;
+  position: relative;
+  color:#ff7400;
+}
+.company_name_add .price_detail .yuan_price {
+  font-size: 28rpx;
+  color: #999;
+  margin-left: 20rpx;
+  text-decoration:line-through;
+}
+.add_money{
+  width:30rpx;
+  height:30rpx;
+  margin-top: 10rpx;
+  margin-left:5rpx;
+}
+.Profit {
+  text-align: right;
+  font-weight: bold;
+  font-size:32rpx;
+  color:#f51664;
+}
+.vip_news {
+  padding:10rpx;
+  background: #ff7e00;
+  margin: 20rpx 0 10rpx 0;
+  border-radius: 30rpx;
+  font-size: 28rpx;
+  color: #fff;
+  text-align: center;
+}
+.product-mane{
+  font-size: 30rpx;
+  margin: 20rpx 0;
+  line-height: 46rpx;
+  letter-spacing: 1px;
+  font-weight: 550;
+}
+.express_sales{
+  font-size: 26rpx;
+  color: #999;
+}
+.express_sales text{
+  display: inline-block;
+  width:46%;
+  text-align: center;
+}
+.express_sales .express{
+  border-right:1px solid #f8f8f8;
+}
+.product_detail_type {
+    padding: 10rpx;
+    position: static;
+    top: 0px;
+    margin-bottom: 10rpx;
+}
+.product_detail_content {
+    margin:15rpx 10rpx;
+    line-height: 50rpx;
+    font-size: 30rpx;
+}
+.home_modular_title {
+    margin: 10rpx 0;
+    font-size:30rpx;
+    color: #666;
+}
+.home_modular_title .sign {
+    border-left: 4px solid #1584ec;
+    margin-right: 10rpx;
+}
+.product_detail_content_image{
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.5em;
+  margin:0 15rpx;
+
+}
+.product_detail_content_image image{
+  width:100%;
+}
+.product_detail_type .product_detail_type_list {
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-size: 32rpx;
+    border-bottom:1px solid #f8f8f8;
+}
+.product_detail_type .sign {
+    color: #fff;
+    background: #edbf07;
+}
+.product_detail_type .sign navigator{
+    color: #fff;
+    background: #edbf07;
+}
+.mr-bottom{
+  margin-bottom: 20rpx;
+  background: #fff;
+}
+.fix-news{
+  padding: 0px;
+  z-index: 2;
+  width: 100%;
+  position: fixed;
+  top: 0rpx;
+  height: 75rpx;
+  line-height: 75rpx;
+}
+/* 规格 */
+.buy_product_detail {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: auto;
+    background: #FBFBFB;
+    z-index: 50;
+    background-color: #fff;
+}
+.buy_product_detail .product_detail .product_img {
+    width: 150rpx;
+    height: 150rpx;
+    overflow: hidden;
+    float: left;
+    display: block;
+}
+.buy_product_detail .product_detail .product_text {
+    float: left;
+    margin-left: 20rpx;
+    width: 75%;
+    line-height: 36rpx;
+    letter-spacing: 1px;
+    font-size: 30rpx;
+    padding: 20rpx 0;
+}
+.buy_product_detail .product_detail .product_text .price_name .price {
+    font-size: 32rpx;
+    color: #f51664;
+}
+.buy_product_detail .product_detail {
+    border-bottom: 1px solid #f8f8f8;
+    padding: 10rpx;
+    margin: 20rpx 20rpx;
+}
+.buy_product_detail .spati {
+     
+    padding: 10rpx;
+    margin: 20rpx 20rpx;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.spati .specti_text .specti_textleft {
+    float: left;
+    width: 150rpx;
+}
+.spati .specti_text .specti_textright label {
+    margin: 10rpx;
+    padding:5rpx 10rpx;
+    border-radius: 10rpx;
+    border: 1px dotted #31bdff;
+    color: #31bdff;
+}
+.spati .specti_text .specti_textright label radio{
+  display: none;
+}
+.spati .specti_text .specti_textright {
+    float: left;
+    width: 75%;
+}
+.spati .specti_text .specti_textright .number{
+  text-align: right;
+}
+.spati .specti_text .specti_textright label .active{
+    color:#ff6000;
+    border-bottom: 2px solid red;
+}
+.guige-image{
+  width:30rpx;
+  height:30rpx;
+}
+.buy_product_detail .button_buy {
+  background: #ff6000;
+  border-radius: 50rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+  text-align: center;
+  color: #fff;
+}
+.pingjia-list{
+  margin-bottom: 20rpx;
+  border-bottom:1px solid #f8f8f8;
+}
+.product-pingjia-list .radio-group .radio{
+  margin-right:10rpx;
+}
+/* 图片点击放大 */
+.imgList{
+  width: 100%;
+}
+.imgList .imgList-li{
+  width: 25;
+  float:left;
+  margin-right:10rpx;
+}
+.imgList .imgList-li .img{
+  width:80rpx;
+  height: 80rpx;
+}
+.header_height{
+  background:#ddeefb;
+}
+.header_height .fanhui .fanhui_img ,.header_height .fenx .fanhui_img{
+  width: 40rpx;
+  height: 40rpx;
+}
+.header_height .fenx{
+  margin-right: 230rpx;
+}
+.danwei{
+  font-size:28rpx;
+}
+.guanzhu{
+  font-size:28rpx;
+  color:#666;
+}
+.guanzhu1{
+  font-size:28rpx;
+  color:#ff6600;
+}
+.express_sales{
+  font-size: 26rpx;
+  color: #999;
+  margin:20rpx 0;
+}
+.img_center {
+  margin:10rpx 0;
+}
+.img_center >image{
+  width:100%;
+  height:100rpx;
+}
+/* shop */
+.detailShop {
+    padding: 20rpx;
+    background-color: #fff;
+    margin-bottom: 20rpx;
+}
+.detailShop >image {
+    width: 120rpx;
+    height: 120rpx;
+    float: left;
+    margin-right:20rpx;
+}
+.detailShop > view {
+    font-size: 34rpx;
+    line-height: 120rpx;
+    float: left;
+}
+.detailShop > navigator:first-of-type {
+  border-radius: 50rpx;
+  color: #fff;
+  padding: 5rpx 10rpx;
+  margin-right: 20rpx;
+  background-color: #ff6000;
+}
+.detailShop > navigator:last-of-type {
+  border-radius: 50rpx;
+  border: 1px solid #ff6000;
+  color: #ff6000;
+  padding: 5rpx 10rpx;
+  margin-right: 30rpx;
+}
+.detailShop > navigator {
+    margin-top: 30rpx;
+    font-size: 30rpx;
+    float: right;
+}
+/* 推荐 */
+/* 优选 */
+.youProduct .home_limited_product_list{
+  display: inline-block;
+  width: 30%;
+  background-color: #fff;
+  margin: 0rpx 10rpx;
+  position: relative;
+  padding: 10rpx 0;
+  box-sizing: border-box;
+}
+.youProduct .home_limited_product_list .product_text image{
+  width:100%;
+  height:200rpx;
+}
+.youProduct .home_limited_product_list .product_text .price{
+  color: #222;
+  line-height: 40rpx;
+}
+.youProduct .home_limited_product_list .product_text .price2{
+  color: #999;
+  line-height: 40rpx;
+  font-size: 26rpx;
+}
+.youProduct .home_limited_product_list .product_text .prdouct_pic{
+  color: #ff7800;
+  font-size: 34rpx;
+}
+.guanzhu1{
+  line-height: 50rpx;
+  height: 50rpx;
+}
+.specti_text{
+  height: 60rpx;
+  line-height: 30px;
+}
+.wap_slide{
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  position: fixed;
+  overflow: auto;
+  left: 0px;
+}
+.wap_slide .detail_layer {
+    padding: 0 20rpx;
+    overflow-y: auto;
+    background-color: #fff;
+    position: fixed;
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 40rpx;
+    border-radius: 40rpx;
+    box-sizing: border-box;
+}
+.wap_slide .title {
+  text-align: center;
+  margin: 20rpx;
+  line-height: 80rpx;
+  font-size: 36rpx;
+}
+.wap_slide .detail_layer image {
+  margin-left: 20rpx;
+  width: 60rpx;
+  height:60rpx;
+  margin-top: 10rpx;
+}
+.wap_slide .title span {
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  color: #666;
+}
+.detail_list_shop > view.sign {
+    border: 1px solid #f60;
+}
+.detail_list_shop > view {
+    margin: 10rpx 0;
+    background-color: #fff;
+    border-radius: 40rpx;
+    padding: 20rpx;
+}
+.detail_list_shop > view > view:nth-child(1) >text {
+    font-size: 30rpx;
+    color: #f60;
+}
+.detail_list_shop > view >view:nth-child(2) {
+    font-size: 0.35rem;
+    color: #666;
+}

@@ -1,0 +1,159 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.4",
+	"appid": "wxa9f6ddec5ec0c4dc",
+	"projectname": "%E7%87%83%E6%B0%94web",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 15,
+			"list": [
+				{
+					"id": -1,
+					"name": "发布需求",
+					"pathName": "pages/release/release",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "需求详情",
+					"pathName": "pages/detail/detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "会员中心",
+					"pathName": "pages/member/member",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "合同列表",
+					"pathName": "pages/contract/contract",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "运输管理",
+					"pathName": "pages/list/list",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "企业信息",
+					"pathName": "pages/ruzhu/ruzhu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的台账",
+					"pathName": "pages/ledger/ledger",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "设备管理",
+					"pathName": "pages/ruzhu/ruzhu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "故障上报",
+					"pathName": "pages/release/release",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "故障详情",
+					"pathName": "pages/detail/detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "产品列表",
+					"pathName": "pages/productList/productList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "产品详情",
+					"pathName": "pages/productDetail/productDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "故障分析",
+					"pathName": "pages/gas2/gas2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "单位首页",
+					"pathName": "pages/index2/index2",
+					"scene": null
+				}
+			]
+		}
+	}
+}

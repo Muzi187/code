@@ -1,0 +1,113 @@
+<view class="header_top clearfix">
+   <navigator hover-class="none" class="fl returnBotton" open-type="navigateBack" delta="1">
+      <image src="../../image/icon/fll.png" class="fanhui_img"></image>
+    </navigator>
+    <view class="header_title fl text-center element1">
+      维报管理
+    </view>
+    <view class="empty|_top_right fl"></view>
+</view>
+<view class="empty_top"></view>
+
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="待处理">
+    <view class="task_list_layer">
+      <navigator hover-class="none" class="list_task border-r" url="../detail/detail">
+        <view class="fr_text">
+          <view class="type element2">编号：FJG2532521 <text class="cl_yellow tips_gj fr">查看详情</text></view>
+          <view class="title element2">设备名称：FJG2532521</view>
+          <view class="title element2">燃气泄漏</view>
+          <view class="title_ry element1 clearfix">上报维保员：芭蕉 <text class="fr">ID： 5</text></view>
+          <view class="time clearfix">
+            <image src="../../image/icon/wc.png" class="zt_bj fl"></image>
+            <text class="red chuli">待处理</text>
+            <text class="cl_ben mr-l20 type_guz">小故障</text>
+            <text class="text-right fr">2020/04/20</text>
+          </view>
+        </view>
+      </navigator>
+      <navigator hover-class="none" class="list_task border-r" url="../detail/detail">
+        <view class="fr_text">
+          <view class="type element2">FJG2532521<text class="cl_yellow tips_gj fr">查看详情</text></view>
+          <view class="title element2">设备名称</view>
+          <view class="title element2">燃气泄漏</view>
+          <view class="title_ry element1 clearfix">上报维保员：芭蕉 <text class="fr">ID： 5</text></view>
+          <view class="time clearfix">
+            <image src="../../image/icon/wc.png" class="zt_bj fl"></image>
+            <text class="red chuli">待处理</text>
+            <text class="cl_ben mr-l20 type_guz">大故障</text>
+            <text class="text-right fr">2020/04/20</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </van-tab>
+  <van-tab title="维修记录">
+    <view class="task_list_layer">
+      <navigator hover-class="none" class="list_task border-r" url="../detail2/detail2">
+        <view class="fr_text">
+          <view class="type element2">编号：FJG2532521 <text class="cl_yellow tips_gj fr">查看详情</text></view>
+          <view class="title element2">设备名称：FJG2532521</view>
+          <view class="title element2">燃气泄漏</view>
+          <view class="title_ry element1 clearfix">上报维保员：芭蕉 <text class="fr">ID： 5</text></view>
+          <view class="time clearfix">
+            <image src="../../image/icon/handle-2.png" class="zt_bj fl"></image>
+            <text class="cl_ben">已处理</text>
+            <text class="cl_ben mr-l20 type_guz">小故障</text>
+            <text class="text-right fr">2020/04/20</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </van-tab>
+  <van-tab title="报修记录">
+    <view class="task_list_layer">
+      <navigator hover-class="none" class="list_task border-r" url="../detail2/detail2">
+        <view class="fr_text">
+          <view class="type element2">编号：FJG2532521 <text class="cl_yellow tips_gj fr">查看详情</text></view>
+          <view class="title element2">设备名称：FJG2532521</view>
+          <view class="title element2">燃气泄漏</view>
+          <view class="title_ry element1 clearfix">上报维保员：芭蕉 <text class="fr">ID： 5</text></view>
+          <view class="time clearfix">
+            <image src="../../image/icon/handle-2.png" class="zt_bj fl"></image>
+            <text class="cl_ben">已处理</text>
+            <text class="cl_ben mr-l20 type_guz">大故障</text>
+            <text class="text-right fr">2020/04/20</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </van-tab>
+  <van-tab title="故障池">
+    <view class="task_list_layer">
+      <navigator hover-class="none" class="list_task border-r" url="../detail/detail">
+        <view class="fr_text">
+          <view class="type element2">编号：FJG2532521 <text class="cl_yellow tips_gj fr">查看详情</text></view>
+          <view class="title element2">设备名称：FJG2532521</view>
+          <view class="title element2">燃气泄漏</view>
+          <view class="title_ry element1 clearfix">上报维保员：芭蕉 <text class="fr">ID： 5</text></view>
+          <view class="time clearfix">
+            <image src="../../image/icon/wc.png" class="zt_bj fl"></image>
+            <text class="red chuli">待处理</text>
+            <text class="cl_ben mr-l20 type_guz">小故障</text>
+            <text class="text-right fr">2020/04/20</text>
+          </view>
+        </view>
+      </navigator>
+      <navigator hover-class="none" class="list_task border-r" url="../detail/detail">
+        <view class="fr_text">
+          <view class="type element2">FJG2532521<text class="cl_yellow tips_gj fr">查看详情</text></view>
+          <view class="title element2">设备名称</view>
+          <view class="title element2">燃气泄漏</view>
+          <view class="title_ry element1 clearfix">上报维保员：芭蕉 <text class="fr">ID： 5</text></view>
+          <view class="time clearfix">
+            <image src="../../image/icon/wc.png" class="zt_bj fl"></image>
+            <text class="red chuli">待处理</text>
+            <text class="cl_ben mr-l20 type_guz">大故障</text>
+            <text class="text-right fr">2020/04/20</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </van-tab>
+</van-tabs>

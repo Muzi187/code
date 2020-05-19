@@ -1,0 +1,117 @@
+/* task list */
+.task_list_layer{
+  margin-bottom: 15rpx;
+}
+.list_task{
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  padding: 20rpx;
+  box-sizing: border-box;
+  position: relative;
+ margin-bottom: 10rpx;
+}
+.list_task:last-of-type{
+  border-bottom: 1px solid #fff;
+}
+.fl_img{
+  width: 160rpx;
+  height: 160rpx;
+  overflow: hidden;
+  margin-bottom: 10rpx
+}
+.fr_text{
+  padding: 10rpx;
+}
+.fr_text >.title{
+  font-size: 30rpx;
+  color: #666;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.fr_text > .type{
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+}
+.fr_text > .time{
+  font-size: 26rpx;
+  color: #999;
+  margin-left: 2px;
+}
+.list_task .state{
+  position: absolute;
+  right:20rpx;
+  color: #74d3ff;
+  border:1px solid #74d3ff;
+  border-radius: 30rpx;
+  padding:2px 10rpx;
+  bottom: 20rpx;
+  font-size:26rpx;
+}
+/* 状态分类 */
+.list_contract_type{
+  padding:20rpx;
+}
+.list_contract_type .botton_on{
+  width: 45%;
+  float: left;
+  font-size:26rpx;
+}
+
+/* 下拉 */
+.list-msg {
+  background-color: #fff;
+  position: relative; 
+  border-bottom: 1px solid #eee;
+}
+ 
+.list-msg1 {
+    /* height: 60rpx; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.list-msg .list-msg2 {
+    /* height: 60rpx; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20rpx 40rpx;
+    font-size: 30rpx;
+    color: #666;
+}
+ 
+.select_box {
+  background-color: #eee;
+  width: 82%;
+  position: absolute;
+  padding: 0 30rpx;
+  font-size: 30rpx;
+  color: #666;
+  z-index: 1;
+  overflow: hidden;
+  animation: myfirst 0.5s;
+}
+ 
+@keyframes myfirst {
+    from {
+        height: 0rpx;
+    }
+ 
+    to {
+        height: 210rpx;/* 设置显示的长度  和效果配合才有效  这个不写也行 */
+    }
+}
+ 
+.select_one {
+    height: 60rpx;
+    line-height: 60rpx;
+    border-bottom: 1px solid #f8f8f8;
+}
+.select_image_down{
+  height:28rpx;
+  width:28rpx;
+  transform: rotate(0.25turn);
+}

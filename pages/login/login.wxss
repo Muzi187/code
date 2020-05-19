@@ -1,0 +1,96 @@
+page{
+  /* background: linear-gradient(to bottom, #1584ec,#8b8bfd); */
+  background: #fff;
+}
+
+/* logo */
+.logo_web{
+  text-align: center;
+  padding: 50px 10px;
+}
+.logo_web > image{
+  width: 400rpx;
+  height: 178rpx;
+}
+
+.list .left{
+  width: 22%;
+  text-align: right;
+  color:#666;
+}
+.list .left >image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.list .right{
+  width: 50%;
+  color: #666;
+  padding: 8rpx 20rpx 0 20rpx;
+  text-align: LEFT;
+  font-size: 26rpx;
+  height: 50rpx;
+  border-bottom: 1px solid #dbedfe;
+}
+.list {
+  font-size: 30rpx;
+  padding: 10rpx 0;
+  line-height: 60rpx;
+  position: relative;
+  margin-bottom: 40rpx;
+}
+.tixian_layer{
+  padding: 30rpx;
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+.jiantou{
+  margin-right:20rpx;
+  margin-left:20rpx;
+  color: #999;
+}
+.tijiao{
+  background-color: #31bdff;
+  color:#fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right:0;
+  margin:auto;
+}
+
+.yanzhengma {
+  font-size: 27rpx;
+  border: 1px solid #1584ec;
+  right: 40rpx;
+  position: absolute;
+  color: #1584ec;
+  background: #ffffff;
+  float: right;
+  width: 180rpx;
+  padding: 0rpx;
+  top: 5rpx;
+  border-radius: 15px;
+  z-index: 500;
+}
+/* 登录 button */
+.login_button{
+  width: 400rpx;
+  border-radius: 60rpx;
+  background-color: #1584ec;
+  color: #fff;
+  font-size: 34rpx;
+}
+.login_tip{
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 30rpx;
+}
+.forget{
+  font-size: 26rpx;
+  color: #1584ec;
+  margin-top:20rpx;
+}
+.forget >text{
+  font-size:24rpx;
+}

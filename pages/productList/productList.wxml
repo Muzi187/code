@@ -1,0 +1,61 @@
+<view class="header_top clearfix">
+    <navigator hover-class="none" class="fl returnBotton" open-type="navigateBack" delta="1">
+      <image src="../../image/icon/fll.png" class="fanhui_img"></image>
+    </navigator>
+    <view class="header_title fl text-center element1">
+      零配件采购
+    </view>
+    <view class="empty|_top_right fl"></view>
+</view>
+<view class="empty_top"></view>
+<!-- 左侧导航 -->
+<view class='tui-fixed-left'>
+  <scroll-view class='tui-city-scroll' scroll-x="true" scroll-y="true" style='height:92%;' scroll-with-animation="true" scroll-top="{{leftMenuTop}}">
+    <text class="menu-item {{index === currentActiveIndex ? 'menu-active' : ''}}" wx:for="{{navList}}" wx:key="unique" data-index="{{index}}" id='{{index}}' catchtap='changeMenu'>{{item.c_name}}</text>
+  </scroll-view>
+  <view class="empty_bottom"></view>
+</view>
+<!-- 右侧滚动商品 -->
+<view class='content'>
+  <scroll-view class='tui-city-scroll-y' scroll-y="true" style='height:90%;' scroll-with-animation="true" scroll-top="{{rightProTop}}" bindscroll="scroll">
+    <view class='pro-item' wx:for="{{navList}}" wx:key="unique">
+      <view class='tui-list-head' id='NAV{{index}}'>{{item.c_name}}</view>
+      <!-- <navigator url="" style="width: 100%;display: block;height:200rpx;">
+        <image src="{{item.img}}" class="banner_img"></image>
+      </navigator> -->
+      <view class='tui-list-li'>
+        <view class='goods-box' wx:for-item='items' wx:for="{{item.list}}" wx:key="unique" >
+          <navigator url="../productDetail/productDetail" hover-class="none">
+            <image class='goodsImg' src='{{items.url}}'></image>
+            <view class='goodsName'>{{items.goodsName}}</view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+     <view class="empty_bottom"></view>
+  </scroll-view> 
+</view>
+<view class="empty_bottom"></view>
+<view class="prese_bottom_onee">
+  <navigator hover-class="none" url="../index/index">
+    <image src="../../image/footer/sy2.png"></image>
+    <view class=" text">首页</view>
+  </navigator>
+  <navigator hover-class="none" url="../about/about">
+    <image src="../../image/footer/fl.png"></image>
+    <view class="text">服务</view>
+  </navigator>
+  <navigator hover-class="none" url="../daka/daka">
+    <image src="../../image/footer/all2.png" class="center_img"></image>
+    <view class="p-bottom"></view>
+    <view class="text">打卡</view>
+  </navigator>
+  <navigator hover-class="none" url="../productList/productList">
+    <image src="../../image/footer/tc2.png"></image>
+    <view class="text sign">零配件</view>
+  </navigator>
+  <navigator hover-class="none" url="../member/member">
+    <image src="../../image/footer/hy.png"></image>
+    <view class="text">我的</view>
+  </navigator>
+</view>

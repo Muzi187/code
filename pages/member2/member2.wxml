@@ -1,0 +1,124 @@
+<view class="myhome_user_msg_box" >
+  <image src="../../image/bg.jpg" class="number-bg"></image>
+  <view class="top-numberDiv clear clearfixfix">
+    <view class="header_top clear clearfixfix">
+       <navigator hover-class="none" class="fl returnBotton" open-type="navigateBack" delta="1">
+          <image src="../../image/icon/fll.png" class="fanhui_img"></image>
+        </navigator>
+        <view class="header_title fl text-center element1">
+          会员中心
+        </view>
+        <view class="empty|_top_right fl"></view>
+    </view> 
+    <view class="top-number clear clearfixfix">
+      <view class="top-pic-border fl">
+        <image src="../../image/user.png" class="img_show"></image>
+      </view>
+      <view class="number-infor fl">
+        <view class="hy_name">超级英雄</view>
+        <view class="huyuan_class">ID：5</view>
+      </view>
+    </view>
+</view>
+</view>
+<!-- 其他 -->
+<view class="slide-menu hy_liebiao number_list">
+  <view class="clear clearfix">
+   <navigator hover-class="none" hover-class="none" url="../ruzhu/ruzhu" class="clear clearfix">
+      <image src="../../image/icon/zd.png" class="icon"></image>
+      <text>设备管理</text>
+      <image src="../../image/icon/fhr.png" class="icon2 fr"></image>
+    </navigator>
+  </view>
+  <view class="clear clearfix">
+   <navigator hover-class="none" hover-class="none" url="../seal/seal" class="clear clearfix">
+      <image src="../../image/icon/zd.png" class="icon"></image>
+      <text>设备巡检</text>
+      <image src="../../image/icon/fhr.png" class="icon2 fr"></image>
+    </navigator>
+  </view>
+  <view class="clear clearfix">
+   <navigator hover-class="none" hover-class="none" url="../ledger/ledger" class="clear clearfix">
+      <image src="../../image/icon/fxx.png" class="icon"></image>
+      <text>维报管理</text>
+      <image src="../../image/icon/fhr.png" class="icon2 fr"></image>
+    </navigator>
+  </view>
+  <view class="clear clearfix">
+   <navigator hover-class="none" hover-class="none" url="../gas/gas" class="clear clearfix">
+      <image src="../../image/icon/zd.png" class="icon"></image>
+      <text>打卡分析</text>
+      <image src="../../image/icon/fhr.png" class="icon2 fr"></image>
+    </navigator>
+  </view>
+  <view class="clear clearfix">
+   <navigator hover-class="none" hover-class="none" url="../gas2/gas2" class="clear clearfix">
+      <image src="../../image/icon/zd.png" class="icon"></image>
+      <text>故障分析</text>
+      <image src="../../image/icon/fhr.png" class="icon2 fr"></image>
+    </navigator>
+  </view>
+  <view class="clear clearfix">
+   <navigator hover-class="none" hover-class="none" url="../contract/contract" class="clear clearfix">
+      <image src="../../image/icon/zd.png" class="icon"></image>
+      <text>合同管理</text>
+      <image src="../../image/icon/fhr.png" class="icon2 fr"></image>
+    </navigator>
+  </view>
+</view>
+<!-- 其他 -->
+<view class="slide-menu hy_liebiao number_list">
+   <view class="clear clearfix">
+   <navigator hover-class="none" hover-class="none" url="../xinxi/xinxi" class="clear clearfix">
+      <image src="../../image/icon/shop2.png" class="icon"></image>
+      <text>单位信息</text>
+      <image src="../../image/icon/fhr.png" class="icon2 fr"></image>
+    </navigator>
+  </view>
+  <view class="layer-view">
+    <view class="clear clearfix class-layer">
+        <image src="../../image/icon/chat.png" class="icon"></image>
+        <button open-type="contact" class="kh-chat">联系客服</button>
+        <image src="../../image/icon/fhr.png" class="icon2 fr"></image>
+    </view>
+  </view>
+  <view class="clear clearfix">
+   <navigator hover-class="none" hover-class="none" url="../shezhi/shezhi" class="clear clearfix">
+      <image src="../../image/icon/list-6.png" class="icon"></image>
+      <text>账号设置</text>
+      <image src="../../image/icon/fhr.png" class="icon2 fr"></image>
+    </navigator>
+  </view>
+    <view class="layer-view">
+    <view class="clear clearfix class-layer">
+        <image src="../../image/icon/chat.png" class="icon"></image>
+        <button open-type="contact" class="kh-chat">退出登录</button>
+        <image src="../../image/icon/fhr.png" class="icon2 fr"></image>
+    </view>
+  </view>
+</view>
+<!-- end 产品 -->
+<view class="empty_bottom"></view>
+<view class="prese_bottom_onee">
+  <navigator hover-class="none" url="../index2/index2">
+    <image src="../../image/footer/sy.png"></image>
+    <view class="text">首页</view>
+  </navigator>
+  <navigator hover-class="none" url="../ruzhu/ruzhu">
+    <image src="../../image/footer/fl.png"></image>
+    <view class="text">设备管理</view>
+  </navigator>
+  <navigator hover-class="none" url="../release/release">
+    <image src="../../image/footer/all2.png" class="center_img"></image>
+    <view class="p-bottom"></view>
+    <view class="text">故障报修</view>
+  </navigator>
+  <navigator hover-class="none" url="../productList2/productList2">
+    <image src="../../image/footer/tc.png"></image>
+    <view class="text">零配件</view>
+  </navigator>
+  <navigator hover-class="none" url="../member2/member2">
+    <image src="../../image/footer/hy2.png"></image>
+    <view class="text sign">我的</view>
+  </navigator>
+</view>

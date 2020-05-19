@@ -1,0 +1,28 @@
+<view class="header_top clearfix">
+   <navigator hover-class="none" class="fl returnBotton" open-type="navigateBack" delta="1">
+      <image src="../../image/icon/fll.png" class="fanhui_img"></image>
+    </navigator>
+    <view class="header_title fl text-center element1">
+      合同
+    </view>
+    <view class="empty|_top_right fl"></view>
+</view>
+<view class="empty_top"></view>
+
+<view class="task_list_layer">
+ <navigator hover-class="none" class="list_task" url="../contractDetail/contractDetail">
+    <view class="fr_text fl">
+      <view class="title element1">合同号：25325125252_2</view>
+      <view class="type element2">起始日期：2020-02-25 至 2025-02-25</view>
+      <view class="time">上传时间：2020/04/20</view>
+    </view>
+  </navigator>
+ <navigator hover-class="none" class="list_task" url="../contractDetail/contractDetail">
+    <view class="fr_text fl">
+      <view class="title element1">合同号：25325125252_1</view>
+      <view class="type element2">起始日期：2018-02-25 至 2020-02-25</view>
+      <view class="time">上传时间：2020/04/20</view>
+    </view>
+  </navigator>
+</view>
+

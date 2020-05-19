@@ -1,0 +1,113 @@
+.list .left{
+  width: 30%;
+  text-align: left;
+  color:#666;
+}
+.list .right{
+  width: 63%;
+  color: #666;
+  padding: 8rpx 20rpx 0 20rpx;
+  text-align: LEFT;
+  font-size: 26rpx;
+}
+.list {
+  font-size: 30rpx;
+  padding: 10rpx 0;
+  border-bottom: 1px solid #fff3f7;
+  line-height: 60rpx;
+  position: relative;
+}
+.tixian_layer{
+  padding: 30rpx;
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+.jiantou{
+  margin-right:20rpx;
+  margin-left:20rpx;
+  color: #999;
+}
+.tijiao{
+  background-color: #1c77c9;
+  color:#fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right:0;
+  margin:auto;
+}
+.yanzhengma {
+  font-size: 27rpx;
+  border: 1px solid #1584ec;
+  right: 40rpx;
+  position: absolute;
+  color: #1584ec;
+  background: #ffffff;
+  float: right;
+  width: 180rpx;
+  padding: 0rpx;
+  top: 5rpx;
+  border-radius: 15px;
+  z-index: 500;
+}
+/* 弹窗 */
+.daka_erroe {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+}
+.error_text {
+  position: relative;
+  width: 500rpx;
+  background: #fff;
+  top: 30%;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  z-index: 1002;
+  margin: auto;
+  padding: 50rpx 20rpx;
+  border-radius: 20rpx;
+}
+.error_text > .title{
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.error_text .code{
+  border-bottom: 1px solid #1c77c9;
+  width: 200rpx;
+  display: inline-block;
+  margin: 0 10rpx;
+}
+.huoqu{
+  color: #bbe87f;
+  font-size: 26rpx;
+  border: 1px solid #bbe87f;
+  padding: 5rpx 10rpx;
+  border-radius: 10rpx;
+}
+.moddle{
+  margin: 40rpx;
+  height: 80rpx;
+}
+.error_text .botton{
+  background-color: #05c160;
+  color: #fff;
+  font-size: 26rpx;
+  padding: 15rpx 0rpx;
+  display: inline-block;
+  width: 80%;
+  border-radius: 20rpx;
+}
+.error_text .close{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 20rpx;
+}
+/* 弹窗 end */

@@ -1,0 +1,43 @@
+<view class="header_top clearfix">
+   <navigator hover-class="none" class="fl returnBotton" open-type="navigateBack" delta="1">
+      <image src="../../image/icon/fll.png" class="fanhui_img"></image>
+    </navigator>
+    <view class="header_title fl text-center element1">
+      下载中心
+    </view>
+    <view class="empty|_top_right fl"></view>
+</view>
+<view class="empty_top"></view>
+
+<view class="task_list_layer">
+ <navigator hover-class="none" class="list_task" url="../detail/detail">
+    <view class="download_list clearfix" bindtap="load">
+      <view class="element1 title fl">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <image src="../../image/icon/down.png" class="fr down_i"></image>
+    </view>
+  </navigator>
+  <navigator hover-class="none" class="list_task" url="../detail/detail">
+    <view class="download_list clearfix" bindtap="load">
+      <view class="element1 title fl">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <image src="../../image/icon/down.png" class="fr down_i"></image>
+    </view>
+  </navigator>
+  <navigator hover-class="none" class="list_task" url="../detail/detail">
+    <view class="download_list clearfix" bindtap="load">
+      <view class="element1 title fl">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <image src="../../image/icon/down.png" class="fr down_i"></image>
+    </view>
+  </navigator>
+  <navigator hover-class="none" class="list_task" url="../detail/detail">
+    <view class="download_list clearfix" bindtap="load">
+      <view class="element1 title fl">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <image src="../../image/icon/down.png" class="fr down_i"></image>
+    </view>
+  </navigator>
+  <navigator hover-class="none" class="list_task" url="../detail/detail">
+    <view class="download_list clearfix" bindtap="load">
+      <view class="element1 title fl">废品需求发布标题,废品需求发布标题废品需求发布标题</view>
+      <image src="../../image/icon/down.png" class="fr down_i"></image>
+    </view>
+  </navigator>
+</view>

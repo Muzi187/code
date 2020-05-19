@@ -1,0 +1,20 @@
+<view class="header_top clearfix">
+    <navigator hover-class="none" class="fl returnBotton" open-type="navigateBack" delta="1">
+      <image src="../../image/icon/fll.png" class="fanhui_img"></image>
+    </navigator>
+    <view class="header_title fl text-center element1">
+      知识标题知识标题知识标题知识标题知识标题知识标题
+    </view>
+    <view class="empty|_top_right fl"></view>
+</view>
+<view class="empty_top"></view>
+
+<rich-text class="div_class">
+  <view class="text_guize">
+    <view class="title_guiz">知识标题知识标题知识标题知识标题知识标题知识标题?</view>
+
+    <image mode="fixed-width" src="../../image/banner1.jpg"></image>
+    <view>设备保养小知识</view>
+    <view class="news_time text-right">发布时间：2020/03/20</view>
+   </view>
+</rich-text>

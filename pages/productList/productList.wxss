@@ -1,0 +1,148 @@
+page{
+
+}
+.search{
+width:100%;
+height:88rpx;
+background-color:#5196ff;
+box-sizing: border-box;
+padding-top:18rpx;
+position: fixed;
+left: 0;
+top: 0;
+}
+.search-box{
+width:690rpx;
+height:57rpx;
+margin-left:30rpx;
+background-color:#fff;
+box-sizing: border-box;
+padding-left: 60rpx;
+border-radius: 57rpx;
+font-size: 26rpx;
+}
+.question-mark{
+width:30rpx;
+height:30rpx;
+position: absolute;
+left:45rpx;
+top:30rpx;
+}
+.tui-fixed-x{
+/* margin-left: 130px; */
+position: fixed;
+top: 89rpx;
+left: 0;
+}
+.tui-fixed-left{
+width: 180rpx;
+height: 100%;
+position: fixed;
+top: 130rpx;
+left: 0;
+}
+.tui-list-head{
+height:65rpx;
+line-height: 65rpx;
+}
+.tui-city-scroll{
+width: 100%;
+}
+.menu-item{
+  margin-bottom: 5rpx;
+  font-size: 26rpx;
+  box-sizing: border-box;
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 180rpx;
+  background: #e9eaea;
+  display: block;
+  position: relative;
+  z-index: 10;
+  color: #4c4948;
+  text-align: center;
+}
+.menu-item:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 20rpx solid transparent;
+  border-right: 20rpx solid #fff;
+  border-bottom: 20rpx solid transparent;
+  position: absolute;
+  right: 0;
+  top: 28%;
+  z-index: 100;
+}
+.menu-active{
+  color:#fff;
+  background: #1e91ec;
+}
+.content{
+  width:570rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  height: 100%;
+  position: fixed;
+  top: 130rpx;
+  right: 0;
+}
+.banner_img{width:100%;height:200rpx;}
+.tui-city-scroll-y{
+height: 100%;
+box-sizing: border-box;
+}
+.tui-list-head{
+  border-left:3px solid #1584ec;
+height: 65rpx;
+line-height: 65rpx;
+font-size: 28rpx;
+font-weight: 700;
+margin:15rpx 10rpx;
+padding: 0 20rpx;
+}
+.tui-list-li{
+background-color:#fff;
+/* height: 400px; */
+overflow: hidden;
+color: #fff;
+font-size: 50rpx;
+box-sizing: border-box;
+padding:20rpx 0 0 0;
+}
+.goods-box{
+width:170rpx;
+text-align: center;
+overflow: hidden;
+margin-right:10rpx;
+float:left;
+}
+.tui-list-li .goods-box:nth-child(3n){
+margin-right:0rpx;
+}
+.goodsImg{
+  border-radius: 50%;
+display: block;
+width:90rpx;
+height: 90rpx;
+margin:0 auto;
+}
+.goodsName{
+  width:100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 42rpx;
+  line-height: 42rpx;
+  color: #666;
+  text-align: center;
+  font-size: 24rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 20rpx;
+  margin-top: 15rpx;
+}
+.more{
+  color:#999;
+  font-size:26rpx;
+}

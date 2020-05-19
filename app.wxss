@@ -1,0 +1,243 @@
+/* header */
+.header_top{
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  margin:0 auto;
+  height:130rpx;
+  z-index: 500;
+  padding: 40rpx 0 0 0;
+  box-sizing: border-box;
+  line-height: 90rpx;
+  background:#1e91ec;
+}
+.red{
+  color:red;
+}
+.cl_yellow{
+  color:#f6bb33;
+}
+.cl_ben{
+  color:#1e91ec;
+}
+.mr-l20{margin-left:20rpx;}
+.returnBotton{
+  width:10%;
+  text-align: center;
+  vertical-align: middle;
+}
+.returnBotton >image{
+  width:36rpx;
+  height:36rpx;
+}
+.header_title{
+  width:80%;
+  margin:0 auto;
+}
+.empty_top_right{
+  width:10%;
+}
+/**app.wxss**/
+.empty_top{
+  height:130rpx;
+}
+.empty_bottom{height:200rpx;}
+/* 底部 */
+.prese_bottom_onee {
+  z-index: 500;
+  color: #bababa;
+  text-align: center;
+  background:#fff;
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+  font-size: 30rpx;
+  padding:20rpx 0;
+}
+.prese_bottom_onee > navigator{
+  float: left;
+  display: block;
+  width:20%;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+.prese_bottom_onee > navigator >image{
+  width:50rpx;
+  height:50rpx;
+  display: block;
+  margin: 0 auto;
+}
+.prese_bottom_onee > navigator .p-bottom{
+  height: 50rpx;
+}
+.prese_bottom_onee > navigator >view.text{
+  font-size:22rpx;
+  position: relative;
+  z-index: 9;
+  margin-top:4rpx;
+}
+.prese_bottom_onee > navigator >view.sign{
+  color: #1e91ec;
+}
+.prese_bottom_onee > navigator:nth-child(3)::before{
+  content: '';
+  width: 130rpx;
+  height: 130rpx;
+  display: inline-block;
+  overflow: hidden;
+  clear: both;
+  transform: rotate(45deg);
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: -65rpx;
+  left: 0;
+  right:0;
+  margin: 0 auto;
+}
+.prese_bottom_onee > navigator:nth-child(3)::after{
+  content: '';
+  display: inline-block;
+  overflow: hidden;
+  clear: both;
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: -55rpx;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.prese_bottom_onee > navigator:nth-child(3)>image.center_img{
+  z-index: 55;
+  position: absolute;
+  top: -45rpx;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 90rpx;
+  height: 90rpx;
+}
+/* page */
+page{
+  background: #f6fbff;
+  font-family: "微软雅黑";
+}
+/* common */
+.clearfix:after {
+    content: ' ';
+    height: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    zoom: 1;
+}
+.clearfix{
+    zoom: 1;
+}
+.element2 {
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+}
+.element1 {
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.fr{
+  float:right;
+}
+.fl{
+  float:left;
+}
+navigtion{
+  list-style: none;
+}
+.ver_middle{
+  vertical-align:middle;
+}
+navigation,
+view{
+  box-sizing: border-box;
+}
+.bottom_botton{
+  position: fixed;
+  width:100%;
+  padding:20rpx;
+  left: 0;
+  right: 0;
+  margin:auto 0;
+  bottom: 0;
+  z-index: 10;
+}
+.submit_one{
+  font-size:30rpx;
+  background-color: #1e91ec;
+  border-radius: 30rpx;
+  color: #fff;
+}
+/* 图片 */
+.add_image{
+  width:200rpx;
+  background-color:#fff;
+  border:1px solid #1e91ec;
+  color:#1e91ec;
+  font-size:28rpx; 
+}
+.contract{
+  padding: 20rpx;
+  overflow-x: hidden;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+bg_f{
+  background-color: #fff;
+}
+.hidden{
+  display: none;
+}
+.prese_bottom_one {
+  line-height: 90rpx;
+  color: #fff;
+  border: 0px;
+  height: 90rpx;
+  text-align: center;
+  background-color: #1e91ec;
+  position: fixed;
+  bottom: 0px;
+  border-radius: 50rpx;
+  right: 0px;
+  left: 0px;
+  margin: 20rpx;
+  font-size: 30rpx;
+}

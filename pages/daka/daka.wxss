@@ -1,0 +1,164 @@
+/* 下拉 */
+.list-msg {
+  background-color: #fff;
+  position: relative; 
+  border-bottom: 1px solid #eee;
+}
+ 
+.list-msg1 {
+    /* height: 60rpx; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.list-msg .list-msg2 {
+    /* height: 60rpx; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20rpx 40rpx;
+    font-size: 30rpx;
+    color: #666;
+}
+ 
+.select_box {
+  background-color: #eee;
+  width: 82%;
+  position: absolute;
+  padding: 0 30rpx;
+  font-size: 30rpx;
+  color: #666;
+  z-index: 100;
+  overflow: hidden;
+  animation: myfirst 0.5s;
+}
+ 
+@keyframes myfirst {
+    from {
+        height: 0rpx;
+    }
+ 
+    to {
+        height: 210rpx;/* 设置显示的长度  和效果配合才有效  这个不写也行 */
+    }
+}
+ 
+.select_one {
+    height: 60rpx;
+    line-height: 60rpx;
+    border-bottom: 1px solid #f8f8f8;
+}
+.select_image_down{
+  height:28rpx;
+  width:28rpx;
+  transform: rotate(0.25turn);
+}
+/* form */
+.list .left{
+  width: 23%;
+  text-align: left;
+  color:#666;
+}
+.list .right{
+  width: 63%;
+  color: #666;
+  padding: 8rpx 20rpx 0 20rpx;
+  text-align: LEFT;
+  font-size: 28rpx;
+}
+.list .left .sign{
+  color:#fa5c3d;
+}
+.list {
+  font-size: 30rpx;
+  padding: 10rpx 0;
+  border-bottom: 1px solid #f4fef9;
+  line-height: 60rpx;
+  position: relative;
+}
+.tixian_layer{
+  padding: 30rpx;
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+.jiantou{
+  margin-right:20rpx;
+  margin-left:20rpx;
+  color: #999;
+}
+.tijiao{
+  background-color: #31bdff;
+  color:#fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right:0;
+  margin:auto;
+}
+.textarea_detail{
+  padding: 20rpx;
+  border: 1px solid #f4fef9;
+  width: 100%;
+  box-sizing: border-box;
+  color: #666;
+  font-size: 28rpx;
+}
+.tixian_layer .list_img{
+  padding: 10rpx 0;
+  position: relative;
+  margin-bottom: 30rpx;
+}
+.tixian_layer .list_img .detail_image{
+ width:150rpx;
+ height:150rpx;
+ float: left;
+ margin-right:20rpx;
+}
+.tixian_layer .list_img .remove{
+  position: absolute;
+  width: 20rpx;
+  height: 20rpx;
+  right: 10rpx;
+  top: -10rpx;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10rpx;
+  border: 1px solid #eee;
+}
+/* select */
+.picker{
+    color: #666;
+}
+.sign{color:red;}
+.wait_detection2{
+  text-align: center;
+  font-size: 32rpx;
+  color: #989898;
+  padding: 20rpx;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+}
+.wait_detection2 .twe_button{
+  width: 47%;
+  display: inline-block;
+  color: #fff;
+  padding: 20rpx 0;
+  border-radius: 50rpx;
+  margin: 0 10rpx;
+}
+.wait_detection2 .twe_button:nth-child(1){
+  background: #7c9cff;
+}
+.wait_detection2 .twe_button:nth-child(2){
+  background: #1e91ec;
+}
+.jiantouu_fr{
+  width:30rpx;
+  height:30rpx;
+  margin: 5px 0;
+}

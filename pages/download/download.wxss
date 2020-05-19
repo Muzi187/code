@@ -1,0 +1,85 @@
+/* download */
+.download_list .down_i{
+ width:38rpx;
+ height: 38rpx;
+}
+.download_list{
+  padding: 10rpx;
+}
+.download_list .title{
+  width: 80%;
+  font-size: 30rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+}
+/* task list */
+.fr_text .title_ry{
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+}
+.task_list_layer{
+  padding: 20rpx;
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+.task_list_layer_title{
+  padding: 0 20rpx;
+  /* background-color: #fff; */
+  border-bottom: 1px solid #f8f8f8;
+}
+.list_task{
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 1px solid #f5f5f5;
+  border-radius: 10rpx;
+  padding:10rpx 0;
+}
+.list_task:last-of-type{
+  border-bottom: 1px solid #fff;
+}
+.fl_img{
+  width: 160rpx;
+  height: 160rpx;
+  overflow: hidden;
+  margin-bottom: 10rpx
+}
+.fr_text{
+  padding: 10rpx;
+}
+.fr_text >.title{
+  font-size: 30rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+}
+.time{
+  font-size: 24rpx;
+  color: #999;
+}
+.fr_text >.cl_ben{
+  color:#1e91ec;
+}
+.fr_text > .time .zt_bj{
+  width:36rpx;
+  height:36rpx;
+  margin-right:10rpx;
+}
+.fr_text > .type{
+  font-size: 30rpx;
+  color: #444;
+  margin-bottom: 10rpx;
+}
+.list_task .state{
+  position: absolute;
+  right:20rpx;
+  color: #74d3ff;
+  border:1px solid #74d3ff;
+  border-radius: 30rpx;
+  padding:2px 10rpx;
+  bottom: 20rpx;
+  font-size:26rpx;
+}

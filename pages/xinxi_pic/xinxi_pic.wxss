@@ -1,0 +1,58 @@
+.list .left{
+  width: 30%;
+  text-align: left;
+  color:#666;
+}
+.list .right{
+  width: 63%;
+  color: #666;
+  padding: 8rpx 20rpx 0 20rpx;
+  text-align: right;
+  font-size: 26rpx;
+}
+.list {
+  font-size: 30rpx;
+  padding: 10rpx 0;
+  border-bottom: 1px solid #fff3f7;
+  line-height: 60rpx;
+  position: relative;
+}
+.tixian_layer{
+  padding: 30rpx;
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+.jiantou{
+  margin-right:20rpx;
+  margin-left:20rpx;
+  color: #999;
+}
+.tijiao{
+  background-color: #31bdff;
+  color:#fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right:0;
+  margin:auto;
+}
+.yanzhengma {
+  font-size: 27rpx;
+  border: 1px solid #1584ec;
+  right: 40rpx;
+  position: absolute;
+  color: #1584ec;
+  background: #ffffff;
+  float: right;
+  width: 180rpx;
+  padding: 0rpx;
+  top: 5rpx;
+  border-radius: 15px;
+  z-index: 500;
+}
+.wewei_input{
+  width: 50rpx;
+  height:50rpx;
+  float: right;
+}
